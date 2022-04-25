@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lab4_form_bai3</title>
+    <meta charset="utf-8">
+    <style>
+        .a {
+            margin-left: 98px;
+        }
+
+        .b {
+            margin-left: 81px;
+        }
+
+        .c {
+            margin-left: 85px;
+        }
+
+        .d {
+            margin-left: 18px;
+        }
+
+        .e {
+            margin-left: 45px;
+        }
+    </style>
+</head>
+
+<body>
+    <p>
+    <h3 align="center">THÔNG TIN ỨNG VIÊN</h3>
+    </p>
+    <form>
+        <p>Họ tên <input name="Fullname" class="a"></p>
+        <p>
+            Năm sinh <select name="namsinh" class="b">
+                <option value="1">1990
+                <option value="2">2003
+            </select>
+        </p>
+        <p>
+            Giới tính
+            <input type="radio" name="gt" value="nam" class="c">Nam
+            <input type="radio" name="gt" value="nu">Nữ
+        </p>
+        <p>
+            Mức lương đề nghị <input name="luong" class="d">
+        </p>
+        <p>
+            Hình thức làm việc
+            <input type="checkbox" name="hinhthuc" value="full" class="d">Toàn thời gian
+            <input type="checkbox" name="hinhthuc" value="part">Bán thời gian
+        </p>
+        <p>
+            Thông tin khác
+            <textarea name="info" wrap="virtual" class="e"></textarea>
+        </p>
+        <p align="center">
+            <input type="submit" value="Gửi" name="submit"> <input type="reset" value="Xóa" name="reset">
+        </p>
+    </form>
+</body>
+
+</html>
